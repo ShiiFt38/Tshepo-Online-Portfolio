@@ -1,0 +1,677 @@
+/*HTML Styles*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: white;
+    --secondary-color: lightblue;
+    --tertiary-color: linear-gradient(to right, 
+    rgb(47, 47, 47),black);
+    --menu-color: hsla(0, 0%, 1%, 0.6);
+}
+
+.dark-theme{
+    --primary-color: black;
+    --secondary-color: rgb(84, 48, 90);
+    --tertiary-color: linear-gradient(to right, 
+    rgb(217, 207, 190), rgb(255, 247, 233));
+    --menu-color: hsla(51, 26%, 89%, 0.6);
+}
+
+body{
+    font-family:'DM Serif Display', sans-serif;
+    max-width: 100vw;
+    background: var(--tertiary-color)
+}
+
+main{
+    max-width: 100vw;
+}
+
+p{
+    font-size: 20px;
+}
+
+header{
+    max-width: 100vw;
+    max-height: 5.5vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    background: var(--menu-color);
+    justify-content: space-between;
+
+}
+
+.logo{
+    font-family: 'Kolker Brush', sans-serif;
+    align-items: center;
+    margin-left: 30px;
+    color: var(--primary-color);
+}
+
+#icon{
+    max-width: 12px;
+    margin-inline: 25%;
+    cursor: pointer;
+    z-index: 3;
+
+}
+
+/*menu button for mobile*/
+.mobile-nav-toggle{
+    display: none;
+    border: none;
+    background-color: transparent;
+
+}
+
+/*navbar styles*/
+.navbar{
+    /* color: var(--primary-color); */
+    margin-right: 30px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.nav--list{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+
+}
+
+/*each anchor element in the navbar*/
+.nav--link{
+    text-decoration: none;
+    color: var(--primary-color);
+    position: relative;
+    letter-spacing: 1px;
+    transition: 0.5s
+}
+
+.nav--link:after{
+    content: ' ';
+    position: absolute;
+    background-color: var(--secondary-color);
+    height: 2px;
+    left: 0;
+    bottom: -8px;
+    transition: all 1.5s;
+}
+
+.nav--link:hover:after{
+    width: 70%;
+}
+
+/*hero section*/
+.hero{
+    background-image: Url('/images/dark-textured-wall.jpg');
+    background-size: cover;
+    background-repeat: none;
+    max-width: 100vw;
+    height: 96vh;
+    color: var(--primary-color);
+    display: grid;
+    align-items: center;
+    text-align: center;
+
+}
+
+/*My name on the hero section in the beginning*/
+.hero--intro h1{
+    font-size: 6.25rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*list displaying my skills underneath my h1 name*/
+.hero--intro ul{
+    width: fit-content;
+    display: flex;
+    gap: 25px;
+    margin: auto;
+    font-size: 20px;
+}
+
+#middle--name{
+    color: var(--secondary-color);
+    writing-mode: vertical-lr;
+    font-size: 30px;
+    letter-spacing: 5px;
+    transition: all 0.8s;
+}
+
+
+
+/*articles existing within sections that cover all section content*/
+#about--article, #fwd--article, #projects--article{
+    display: grid;
+    grid-column: repeat(2, 1fr);
+    padding: 10px;
+    width: 100%;
+    height: fit-content;
+    grid-column: 2/ span 11;
+    border-radius: 5px;
+    font-size: 30px;
+    color: var(--primary-color);
+    
+}
+
+/*section styles*/
+.projects--section, .certificates--section, .about--section{
+    max-width: 100vw;
+    padding: 30px 30px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+}
+
+/*section headings*/
+#section--heading>h1{
+    font-size: 70px;
+    color: var(--secondary-color);
+    left: 0;
+    writing-mode: vertical-lr; 
+    grid-column: 1/ span 2;
+    position: sticky;
+    top: 50px;
+    transition: all 0.8s;
+}
+
+/*buttons for links*/
+.web-link-btn, .page-link-btn{
+    font-family: 'DM Serif display';
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    margin: auto;
+    border: none;
+    /* padding: 10px; */
+    border-radius: 10px;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.page-link-btn:hover{
+    font-size: 20px;
+    padding: 0px;
+}
+
+/*about section*/
+#about--article{
+    height: fit-content;
+}
+
+/*div element containing 'about' paragraph snippet*/
+#about--article #article-col{
+    padding: 20px 90px;
+    text-align: center;
+}
+
+/*div element conatining all content in the certificates section*/
+#fwd--article{
+    min-height: 45vh;
+    display: grid;
+    overflow-x: hidden;
+}
+
+/*div element that contains display div that shows displays elements*/
+#slideshow{
+    /* background-color: black;  */
+    text-align: center;
+    height: 380px;
+    max-width: 80vw;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    overflow: hidden;
+}
+
+/*div element displaying certificates*/
+#slideshow #certificate-slideshow{
+    width: auto; 
+    max-height: 280px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    gap: 20px;
+    color: var(--primary-color);
+    margin-top: 25px;
+    margin-inline: auto;
+}
+
+/*picture of certificate*/
+#slideshow #certificate-slideshow img{
+    max-width: 200px;
+}
+
+/*div element containing each instance of certificate displays*/
+.display{
+    width: 200px;
+    transition: all 2s;
+    font-size: 15px;
+    display: grid;
+    justify-content: space-around;
+    
+}
+
+/*certificate title underneath display pictures*/
+.display p{
+    margin-top: 15px;
+}
+
+/*links to 'verify' certificates*/
+.display a{
+    margin-block: 20px;
+    color: var(--secondary-color);
+    text-decoration: none;
+    
+}
+
+#huge-display img:hover, .display img:hover{
+    transform: scale(1.2) ;
+    transition: all 0.8s;
+}
+
+
+/*projects section*/
+#huge-display{
+    padding-block: 30px;
+    /* background-color: grey; */
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    display: grid;
+}
+
+#project-heading, #project-description{
+    grid-column: 1/ span 12;
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 15px;
+}
+
+#project-description{
+    padding-inline: 100px;
+    text-align: center;
+}
+
+
+
+#project-heading>h1{
+    margin: auto;
+}
+
+#project-grid-1, #project-grid-2, #project-grid-3,
+#project-grid-4{
+    text-align: center;
+}
+
+#project-grid-2>img, #project-grid-3>img,
+#project-grid-4>img{
+    margin-block: 30px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+#project-grid-1{
+    grid-column: 1/ span 12;
+}
+
+#project-grid-1>img{
+    width: 80%;
+    border-radius: 5px;
+
+}
+
+#project-grid-2{
+    grid-column: 1/ span 4;
+}
+#project-grid-3{
+    grid-column: 5/ span 4;
+}
+#project-grid-4{
+    grid-column: 9/ span 4;
+}
+
+#project-link{
+    grid-column: 1/ span 12;
+    text-align: center;
+}
+
+.web-link-btn{
+    margin-block: 20px;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+/*about page styles*/
+article a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+p{
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+h1{
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+article{
+    margin-block: 30px;
+    padding-inline: 100px;
+    display: grid;
+    text-align: center;
+    font-size: 20px;
+}
+
+article>h1{
+    margin-inline: auto;
+    margin-bottom: 15px;
+}
+
+span{
+    color: var(--secondary-color);
+    transition: all 0.8s;
+}
+
+#contact--links{
+    display: flex;
+    gap: 25px;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+
+#icon{
+    color: var(--primary-color);
+}
+
+/*footer section*/
+footer{
+    min-height: 30vh;
+    background: transparent;
+    color: var(--primary-color);
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+footer a:hover{
+    color: var(--secondary-color);
+}
+
+footer #flex-footer{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    width: 100%;
+
+}
+
+h3{
+    color: var(--primary-color);
+    margin-block: 30px;
+}
+
+#flex-footer #footer-details{
+    width: 300px;
+    min-height: 280px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+#flex-footer #footer-details img{
+    width: 20px;
+    margin: 50px;
+    padding-top: 15px;
+}
+
+#footer-link{
+    margin: auto;
+    align-items: center;
+    list-style:none;
+}
+
+/*scrollbar styles*/
+::-webkit-scrollbar{
+    width: 0.5%;
+    border-radius: 10px;
+    margin-inline: 0.2px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--secondary-color);
+    border-radius: 100px;
+    transition: all 0.8s;
+}
+
+.show{
+    animation: bigToSmall 0.8s ease-in-out 0.2s;
+}
+
+.start{
+    animation: slideIn 0.8s ease-in-out 0s;
+}
+
+/*animation that enlarges a element*/
+@keyframes bigToSmall {
+    from{
+        transform:scale(0.6)
+    }
+
+    to{
+        transform:scale(1)
+    }
+}
+
+/*animation that slides element from left to right*/
+@keyframes slideIn {
+    from{
+        transform: translateX(-50%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+/*responsive design*/
+@media (width <= 700px){
+     /*menu button*/
+     .mobile-nav-toggle{
+        display: block;
+        z-index: 1000;
+        margin: 10vw;
+        right: 30px;
+        float: right;
+        
+    }
+
+    .navbar{
+        margin-left: 35px;
+        margin-top: 15vh;
+        text-align: left;
+    }
+
+    /*menu items when navbar is shown*/
+    .nav-list[data-visible="false"]{
+        transform: translateX(100%);
+    }
+
+    #invisible{
+        display: none;
+    }
+
+    #visible{
+        display: block;
+    }
+
+    .nav--list[data-visible="true"]{
+        background: var(--menu-color);
+        backdrop-filter: blur(2rem);
+        flex-direction: column;
+        padding-block: 100vh;
+        padding-inline: 40px;
+        margin: 0;
+        height: 100vh;
+        z-index: 899;
+        width: 45vw;
+        position: sticky;
+        gap: 40px;
+        transform: translateX(5%);
+    }
+
+
+    #about--article #article-col{
+        padding: 10px 40px;
+    }
+
+    #about--article, #fwd--article, #projects--article{
+        font-size: 15px;
+    }
+    .hero--intro h1{
+        font-size: 60px;
+    }
+
+    #section--heading h1{
+        font-size: 45px;
+    }
+
+    #middle--name{
+        writing-mode: horizontal-tb;
+    }
+
+    #slideshow{
+        height: 380px;
+    }
+
+    #about--article, #fwd--article, #projects--article{
+        padding: 0;
+        margin: 0;
+    }
+
+    #project-description{
+        padding-inline: 20px;
+    }
+
+    .contact-cols{
+        display: block;
+        justify-content: center;
+    }
+
+    article{
+        padding-inline: 50px;
+    }
+}
+
+/*section with contact information*/
+
+#contact-section{
+    /* background-color: grey; */
+    width: 90%;
+    margin: auto;
+    display: block;
+    padding-block: 30px;
+    padding-inline: 5vw;
+    grid-template-columns: repeat(12, 1fr);
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: -10px 10px 10px var(--secondary-color);
+}
+
+.contact img{
+    width: 20px;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+.contact-heading{
+    text-align: center;
+    height: fit-content;
+    color: var(--primary-color);
+    width: 100%;
+}
+
+.contact-heading{
+    margin: auto;
+    min-height: 10%;
+    top: 0;
+}
+
+.contact-cols{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#contact-col-1, #contact-col-2{
+    color: var(--primary-color);
+    text-align: center;
+}
+
+#contact-col-1{
+    height: fit-content;
+    margin: auto;
+}
+
+#contact-col-2{
+    height: fit-content;
+    margin: auto;
+}
+
+.contact-info{
+    top: 20%;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    margin-block: 20px;
+    width: 100%;   
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+
+
+#form-input>label{
+    display: block;
+    margin: 10px;
+}
+
+.submit-btn{
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 15px;
+    background: transparent;
+    color: var(--primary-color);
+
+}
+
+.submit-btn:hover{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}

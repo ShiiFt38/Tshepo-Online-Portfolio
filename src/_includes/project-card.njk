@@ -1,0 +1,18 @@
+<div id="huge-display">
+    <div id="project-heading">
+        <h1>{{ project.data.title }}</h1>
+    </div>
+        {% for image in project.data.images%}
+            <div id="project-grid-{{ loop.index }}">
+                <img src="{{ image }}" alt=" " class="active-animation">
+            </div>
+        {% endfor %}
+        <div id="project-description">
+            <p>{{ project.data.summary }}</p>
+        </div>
+    <div id="project-link">
+        <a href="{{ project.url }}" class="web-link-btn"  
+            target="_blank" rel="noopener noreferrer">Visit Site
+        </a>
+    </div>
+</div>

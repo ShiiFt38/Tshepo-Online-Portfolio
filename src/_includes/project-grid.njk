@@ -1,0 +1,10 @@
+ <section class="projects--section" id="projects">
+     <div id="section--heading">
+         <h1>Projects</h1>
+     </div>
+     <div id="projects--article">
+        {% for project in collections.projects %}
+            {% include "project-card.njk" %}
+        {% endfor %}
+     </div>
+ </section>
