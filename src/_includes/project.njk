@@ -1,13 +1,17 @@
 ---
+title: projects
 layout: "base.njk"
 ---
-
-<div class="project">
-  <h2 class="project__heading">{{ title }}</h2>
-  <div class="project__image-wrapper">
-      <img class="project__image" src="{{ image }}" alt="{{ imageAlt }}">
-  </div>
-  <div class="project__content prose">
+  <h1>{{ title }}</h1>
+  
+  <div >
     {{ content | safe }}
   </div>
+
+    <div id="project-link">
+        <a href="{{ project.data.siteUrl }}" class="web-link-btn"  
+            target="_blank" rel="noopener noreferrer">Visit Site
+        </a>
+    </div>
+</div>
 </div>

@@ -1,0 +1,44 @@
+---
+title: "Contact"
+layout: "base.njk"
+---
+    <section class="contact" id="contact-form" style="height: 95vh; align-items: center; padding-top: 15vh" >
+            <div class="contact-heading">
+                <h1 style="font-size: 70px; color: var(--secondary-color); margin-bottom: 10vh">Let's Get in Touch</h1>
+            </div>
+        <div id="contact-section">
+            <div class="contact-cols">
+            
+                <div id="contact-col-1">
+                    <div class="contact-info">
+                        <p>Call: 
+                            <br>
+                            066 235 2544</p>
+                    </div>
+                    <div class="contact-info">
+                        <p>Email: 
+                            <br>
+                            maseemet0@gmail.com</p>
+                    </div>
+                </div>     
+                <div id="contact-col-2">
+                    <form name="contact" action="/success" method="POST" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
+                        <div id="form-input">
+                            <label for="senderName">Your name</label>
+                            <input type="text" id="senderName" placeholder=" Your name here" style="border-radius: 5px" name="name">
+                        </div>
+                        <div id="form-input">
+                            <label for="senderEmail">Email</label>
+                            <input type="text" id="senderEmail" placeholder=" Your email here" style="border-radius: 5px" name="email">
+                        </div>
+                        <div id="form-input">
+                            <label for="senderMessage">Message</label>
+                            <textarea name="" id="senderMessage" cols="30" rows="10" placeholder=" Your message here" style="border-radius: 5px" name="message"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send</button>
+                    </div>
+                    
+            </form>
+        </div>
+        </div>
+    </section>

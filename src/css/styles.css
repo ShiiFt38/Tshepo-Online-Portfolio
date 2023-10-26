@@ -409,6 +409,7 @@ footer{
     color: var(--primary-color);
     opacity: 0.5;
     text-decoration: none;
+    bottom: 0;
 }
 
 footer a{
@@ -674,4 +675,8 @@ h3{
     background-color: black;
     color: white;
     font-weight: 700;
+}
+
+.case--study{
+    padding-inline: 10vw;
 }
