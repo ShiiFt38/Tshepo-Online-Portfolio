@@ -2,11 +2,11 @@
 title: "Contact"
 layout: "base.njk"
 ---
-    <section class="contact" id="contact-form" style="height: 95vh; align-items: center; padding-top: 15vh" >
+
             <div class="contact-heading">
-                <h1 style="font-size: 70px; color: var(--secondary-color); margin-bottom: 10vh">Let's Get in Touch</h1>
+                <h1 class="secondary-heading">Let's Get in Touch</h1>
             </div>
-        <div id="contact-section">
+        <div id="contact-section" style="margin-bottom: 20vh;">
             <div class="contact-cols">
             
                 <div id="contact-col-1">
@@ -22,7 +22,10 @@ layout: "base.njk"
                     </div>
                 </div>     
                 <div id="contact-col-2">
-                    <form name="contact" action="/success" method="POST" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
+                    <form name="contact" action="/success" 
+                        method="POST" data-netlify="true" 
+                        onSubmit="submit" data-netlify-honeypot="bot-field"
+                        style=" z-index: 300;">
                         <div id="form-input">
                             <label for="senderName">Your name</label>
                             <input type="text" id="senderName" placeholder=" Your name here" style="border-radius: 5px" name="name">
@@ -41,4 +44,3 @@ layout: "base.njk"
             </form>
         </div>
         </div>
-    </section>

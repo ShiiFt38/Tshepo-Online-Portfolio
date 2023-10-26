@@ -500,94 +500,7 @@ h3{
     }
 }
 
-/*responsive design*/
-@media (width <= 700px){
-     /*menu button*/
-     .mobile-nav-toggle{
-        display: block;
-        z-index: 1000;
-        margin: 10vw;
-        right: 30px;
-        float: right;
-        
-    }
 
-    .navbar{
-        margin-left: 35px;
-        margin-top: 15vh;
-        text-align: left;
-    }
-
-    /*menu items when navbar is shown*/
-    .nav-list[data-visible="false"]{
-        transform: translateX(100%);
-    }
-
-    #invisible{
-        display: none;
-    }
-
-    #visible{
-        display: block;
-    }
-
-    .nav--list[data-visible="true"]{
-        background: var(--menu-color);
-        backdrop-filter: blur(2rem);
-        flex-direction: column;
-        padding-block: 100vh;
-        padding-inline: 40px;
-        margin: 0;
-        height: 100vh;
-        z-index: 899;
-        width: 45vw;
-        position: sticky;
-        gap: 40px;
-        transform: translateX(5%);
-    }
-
-
-    #about--article #article-col{
-        padding: 10px 40px;
-    }
-
-    #about--article, #fwd--article, #projects--article{
-        font-size: 15px;
-    }
-    .hero--intro h1{
-        font-size: 60px;
-    }
-
-    #section--heading h1{
-        font-size: 45px;
-    }
-
-    #middle--name{
-        writing-mode: horizontal-tb;
-    }
-
-    #slideshow{
-        height: 380px;
-    }
-
-    #about--article, #fwd--article, #projects--article{
-        padding: 0;
-        margin: 0;
-    }
-
-    #project-description{
-        padding-inline: 20px;
-    }
-
-    .contact-cols{
-        display: block;
-        justify-content: center;
-    }
-
-    article{
-        padding-inline: 50px;
-    }
-}
 
 /*section with contact information*/
 
@@ -679,4 +592,104 @@ h3{
 
 .case--study{
     padding-inline: 10vw;
+}
+
+.secondary-heading{
+    font-size: 70px; 
+    color: var(--secondary-color); 
+    margin-block: 10vh
+}
+
+/*responsive design*/
+@media (width <= 700px){
+    /*menu button*/
+    .mobile-nav-toggle{
+       display: block;
+       z-index: 1000;
+       margin: 10vw;
+       right: 30px;
+       float: right;
+       
+   }
+
+   .navbar{
+       margin-left: 35px;
+       margin-top: 15vh;
+       text-align: left;
+   }
+
+   /*menu items when navbar is shown*/
+   .nav-list[data-visible="false"]{
+       transform: translateX(100%);
+   }
+
+   #invisible{
+       display: none;
+   }
+
+   #visible{
+       display: block;
+   }
+
+   .nav--list[data-visible="true"]{
+       background: var(--menu-color);
+       backdrop-filter: blur(2rem);
+       flex-direction: column;
+       padding-block: 100vh;
+       padding-inline: 40px;
+       margin: 0;
+       height: 100vh;
+       z-index: 899;
+       width: 45vw;
+       position: sticky;
+       gap: 40px;
+       transform: translateX(5%);
+   }
+
+
+   #about--article #article-col{
+       padding: 10px 40px;
+   }
+
+   #about--article, #fwd--article, #projects--article{
+       font-size: 15px;
+   }
+   .hero--intro h1{
+       font-size: 60px;
+   }
+
+   #section--heading h1{
+       font-size: 45px;
+   }
+
+   #middle--name{
+       writing-mode: horizontal-tb;
+   }
+
+   #slideshow{
+       height: 380px;
+   }
+
+   #about--article, #fwd--article, #projects--article{
+       padding: 0;
+       margin: 0;
+   }
+
+   #project-description{
+       padding-inline: 20px;
+   }
+
+   .contact-cols{
+       display: block;
+       justify-content: center;
+   }
+
+   article{
+       padding-inline: 50px;
+   }
+
+   .secondary-heading{
+       font-size: 30px; 
+       margin-top: 5vh;
+   }
 }
