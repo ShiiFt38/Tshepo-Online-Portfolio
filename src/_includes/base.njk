@@ -21,16 +21,17 @@
 
     {% include "footer.njk"%}
 
-    <script>var icon = document.getElementById('icon');
+    <script>
+    var icon = document.getElementById('icon');
 
 icon.addEventListener('click', function(){
     document.body.classList.toggle('dark-theme');
     if(document.body.classList.contains('dark-theme')){
-        icon.src = './images/sun.png';
-        document.getElementById('hero').style.backgroundImage='url(./images/light-textured-wall.jpg)';
+        icon.src = '/images/sun.png';
+        document.getElementById('hero').style.backgroundImage='url(/images/light-textured-wall.jpg)';
     }else{
-        icon.src='./images/moon.png';
-        document.getElementById('hero').style.backgroundImage='url(./images/dark-textured-wall.jpg)';
+        icon.src='/images/moon.png';
+        document.getElementById('hero').style.backgroundImage='url(/images/dark-textured-wall.jpg)';
     };
 }); 
 
