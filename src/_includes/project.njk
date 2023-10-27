@@ -8,11 +8,11 @@ layout: "base.njk"
  <div id="project-grid-1">
      <img src="{{ images[0] }}" alt=" " style="margin-bottom: ">
  </div>
-  <div style="padding-inline: 100px; text-align: center;">
-    <div class="hero--intro" style="display: flex; color: var(--secondary-color)">
+  <div style="padding-inline: 8%; text-align: center;">
+    <div class="hero--intro" style="display: flex; color: var(--secondary-color); list-style: none;">
   
       {% for tech in tech%}
-        <ul>
+        <ul style="display: flex; color: var(--secondary-color); list-style: none;">
             <li id="hero-list-item">{{ tech }}</li>
         </ul>
         {% endfor %}
