@@ -13,6 +13,7 @@ imageAlt:
     - "Screenshot of site on mobile version 3"
 tech: 
     - "HTML"
+    - "JavaScript"
     - "Eleventy.js"
     - "CSS"
 siteUrl: "https://dancing-trifle-4b0ab8.netlify.app/"
@@ -20,65 +21,20 @@ repoUrl: "#"
 
 --- 
 
-Overview
-Objective:
-To create an engaging and educational platform for aspiring web developers to enhance their skills through practical projects and hands-on coding experiences.
-
-Technologies Used:
-
-HTML
-CSS
-JavaScript
-Eleventy.js (Static Site Generator)
-Project Scope
-Elevate Blog started as a passion project with the aim of providing a valuable resource for individuals eager to learn web development. Leveraging the power of static site generation with Eleventy.js, the blog not only delivers content efficiently but also ensures a seamless and enjoyable browsing experience.
-
-Features & Highlights
-Interactive Learning Experience:
-
-Integrated JavaScript for interactive coding exercises within blog posts.
-Encourages readers to apply newly acquired knowledge in real-time.
-Scalability:
-
-Designed a modular structure to accommodate a growing library of educational content.
-Utilized Eleventy.js to effortlessly scale the blog as the content expands.
-User-Friendly Interface:
-
-Customized CSS for a clean and intuitive design, prioritizing readability.
-Implemented responsive web design for optimal viewing on various devices.
-Project-Based Learning:
-
-Introduced project-based tutorials to allow readers to build practical skills.
-Included downloadable resources and starter code for a hands-on learning approach.
-Transition to a Registered Blog Business
-Strategic Steps:
-
-Content Diversification:
-
-Expanded content to cover a wide range of web development topics, from basic HTML/CSS to advanced JavaScript frameworks.
-Community Engagement:
-
-Incorporated comment sections and community forums to foster interaction among learners.
-Initiated partnerships with industry experts for guest blog posts and workshops.
-Monetization Strategies:
-
-Implemented subscription plans for premium content.
-Leveraged affiliate marketing opportunities with relevant products and tools.
-Results and Impact
-Gained a substantial following within the web development community.
-Increased engagement metrics, including longer average session durations and repeat visits.
-Successfully monetized the platform, turning Elevate Blog into a sustainable business.
-Lessons Learned
-User-Centric Approach:
-
-Prioritize the needs and preferences of the target audience in design and content creation.
-Adaptability:
-
-Stay abreast of industry trends and adapt the platform accordingly to meet evolving user expectations.
-Community Building:
-
-Actively nurture a sense of community to enhance user engagement and loyalty.
-Future Plans
-Explore video tutorials and live coding sessions.
-Continuously update content to align with the dynamic field of web development.
-Elevate Blog stands as a testament to the transformative power of combining technical expertise with a genuine passion for educating and empowering others within the web development sphere.
+<br>
+<h1>Overview</h1>
+<p> XLounge blog started as a passion project with the aim of providing a valuable resource for individuals eager to learn web development. Leveraging the power of static site generation with Eleventy.js, the blog not only delivers content but also ensures a seamless and enjoyable browsing experience.</p>
+<br>
+<h1> Learning <span>objectives</span></h1>
+<p>The learning objectives that were the focus with this project included static site generation mastery and content delivery optimization. I knew nothing about static site generators when I stumbled upon this project but sources I learnt from were clear and concise in their teaching. I gained proficiency in utilizing Eleventy.js for efficient static site generation. I understand the benefits of static sites which include better performance, security, and simplicity that consists in modular code. This project allowed me to explore techniques to optimize content delivery through static files for faster page loads.
+</p>
+<br>
+<h1> Design and <span>Development</span></h1>
+<p>For the design of this site I downloaded design files from a GitHub repository provided by the course instructors. It included design elements, including color schemes, typography, and layout structures. All of these were included in Figma files. I integrated the design into the project structure adn utilized version control through Git throughout the development. All CSS stylings are based on the design specifications. The main focus of this project was to practice how to leverage Eleventy.js for static site generation. I gained knowledge on how to use its features to organize content and templates effectively.</p>
+<br>
+<h1>Key <span>Features</span></h1>
+<p>One of the bigeest features of this project is its scalability. It uses a modular structure to accomdate a growing library of informational content. The SSG allows me to effortlesly scale the blog as the cpntent expands. I've added my own media elements and few fonts to add my touch in the blog project. </p>
+<br>
+<h1>Conclusion</h1>
+<p>In conclusion, this blog encapsulates the synergy between education, technology, and adaptability. The journey from a humble passion project to a thriving blog business is a testament to the dynamic nature of web development. As I continue to refine and expand th e platform, the learning experience persists, demonstrating that in the realm of web development, growth is perpetual.</p>
+<br>

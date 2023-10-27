@@ -5,7 +5,7 @@
     
         {% for image in project.data.images%}
             <div id="project-grid-{{ loop.index }}">
-                <img src="{{ image }}" alt=" " class="active-animation">
+                <img src="{{ image }}" alt=" " >
             </div>
         {% endfor %}
 
@@ -13,11 +13,12 @@
             <p>{{ project.data.summary }}</p>
         </div>
 
-    <div id="project-link">
+    <div id="project-link" >
         <a href="{{ project.data.siteUrl }}" class="web-link-btn"  
-            target="_blank" rel="noopener noreferrer">Visit Site
+            target="_blank" rel="noopener noreferrer"
+            style="margin-right: 20%">Visit Site
         </a>
-        {# <a href="{{ project.url }}" class="web-link-btn">Case Study</a> #}
+        <a href="{{ project.url }}" class="web-link-btn">Case Study</a>
     </div>
 
 </div>
