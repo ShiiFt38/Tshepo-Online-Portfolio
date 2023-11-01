@@ -324,6 +324,7 @@ header{
     margin-block: 30px;
     width: 60%;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 #project-grid-1{
@@ -439,12 +440,6 @@ h3{
     min-height: 280px;
     margin-inline: auto;
     text-align: center;
-}
-
-#flex-footer #footer-details img{
-    width: 20px;
-    margin: 50px;
-    padding-top: 15px;
 }
 
 #footer-link{

@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/ShiiFt38/Tshepo-Online-Portfolio#readme",
   "dependencies": {
+    "@11ty/eleventy-img": "^3.1.6",
     "a-sync-waterfall": "^1.0.1",
     "acorn": "^7.4.1",
     "ansi-styles": "^4.3.0",
