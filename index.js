@@ -1,13 +1,14 @@
+// Buttons used to toggle dark and light mode
 var icon = document.getElementById('icon');
 
 icon.addEventListener('click', function(){
     document.body.classList.toggle('dark-theme');
     if(document.body.classList.contains('dark-theme')){
         icon.src = './images/sun.png';
-        document.getElementById('hero').style.backgroundImage='url(./images/light-textured-wall.jpg)';
+        document.getElementById('bd').style.backgroundImage='url(./images/light-textured-wall-min.jpg)';
     }else{
         icon.src='./images/moon.png';
-        document.getElementById('hero').style.backgroundImage='url(./images/dark-textured-wall.jpg)';
+        document.getElementById('bd').style.backgroundImage='url(./images/dark-textured-wall-min.jpg)';
     };
 }); 
 
