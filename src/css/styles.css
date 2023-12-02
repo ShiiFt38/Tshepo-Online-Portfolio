@@ -27,6 +27,10 @@ html, body{
     --menu-color: hsla(51, 26%, 89%, 0.6);
 }
 
+#menu-icon{
+    color: #fcfcfd;
+}
+
 body{
     font-family:'DM Serif Display', sans-serif;
     max-width: 100vw;

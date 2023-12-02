@@ -29,9 +29,11 @@ icon.addEventListener('click', function(){
     if(document.body.classList.contains('dark-theme')){
         icon.src = '/images/sun.png';
         document.getElementById('bd').style.backgroundImage='url(/images/light-textured-wall-min.jpg)';
+        document.getElementById("menu-icon").style.color='#000000'
     }else{
         icon.src='/images/moon.png';
         document.getElementById('bd').style.backgroundImage='url(/images/dark-textured-wall-min.jpg)';
+        document.getElementById("menu-icon").style.color='#fcfcfd'
     };
 }); 
 
