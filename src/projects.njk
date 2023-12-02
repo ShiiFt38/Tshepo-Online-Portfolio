@@ -5,7 +5,7 @@ layout: "base.njk"
 <section style="text-align: center; padding-block: 10vh">
   <h1 style="font-size: 300%; color: var(--secondary-color);">Recent Projects</h1>
 
-  <div class="project-list">
+  <div class="project-list" >
     {% for project in collections.projects %}
       {% include "project-card.njk" %}
     {% endfor %}

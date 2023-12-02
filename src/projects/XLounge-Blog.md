@@ -1,5 +1,6 @@
 ---
 title: "XLounge Blog"
+tags: "featured"
 summary: "This project is one that I found online on a website called codementor.io. It is meant for aspiring web developers to attempt it and practice their skills. It uses a static site generator called 11ty. It is a project I decided to take serious and scale it up to a registered blog business."
 images: 
     - /images/XLounge Blog Desktop.png
