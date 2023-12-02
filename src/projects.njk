@@ -6,7 +6,7 @@ layout: "base.njk"
   <h1 style="font-size: 300%; color: var(--secondary-color);">Recent Projects</h1>
 
   <div class="project-list" >
-    {% for project in collections.projects %}
+    {% for project in collections.projects | reverse %}
       {% include "project-card.njk" %}
     {% endfor %}
   </div>
