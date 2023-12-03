@@ -45,7 +45,7 @@ main{
 }
 
 p{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 header{
@@ -182,7 +182,7 @@ header{
     height: fit-content;
     grid-column: 2/ span 11;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 15px;
     color: var(--primary-color);
     
 }
@@ -343,6 +343,7 @@ header{
 
 #project-heading>h1{
     margin: auto;
+    
 }
 
 #project-grid-1, #project-grid-2, #project-grid-3,
@@ -397,7 +398,7 @@ article a{
 
 p{
     color: var(--primary-color);
-    font-size: 20px;
+    font-size:15px;
 }
 
 h1{
@@ -645,6 +646,10 @@ h3{
        
    }
 
+   #hero-list-item{
+    font-size: 11px;
+   }
+
    .navbar{
        margin-left: 35px;
        margin-top: 15vh;
@@ -681,7 +686,7 @@ h3{
 
 
    #about--article #article-col{
-       padding: 10px 40px;
+       padding: 20px 20px;
    }
 
    #about--article, #fwd--article, #projects--article{
@@ -693,8 +698,11 @@ h3{
    }
 
    #section--heading h1{
-       font-size: 30px;
-       
+       font-size: 40px;
+   }
+
+   #slideshow h1{
+     font-size: 20px;
    }
 
    #middle--name{
@@ -721,7 +729,7 @@ h3{
    }
 
    article{
-       padding-inline: 50px;
+       padding-inline: 30px;
    }
 
    .secondary-heading{
