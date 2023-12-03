@@ -695,11 +695,17 @@ h3{
    }
    .hero--intro h1{
        font-size: 60px;
+       word-spacing: 100px;
    }
 
-   #section--heading h1{
-       font-size: 40px;
+   #section--heading{
+    padding: 10px;
    }
+
+   #section--heading>h1{
+    font-size: 40px;
+    grid-column: 1/ span 1;
+}
 
    #slideshow h1{
      font-size: 20px;
@@ -711,6 +717,7 @@ h3{
 
    #slideshow{
        height: 380px;
+       width: 65vw;
    }
 
    #about--article, #fwd--article, #projects--article{
