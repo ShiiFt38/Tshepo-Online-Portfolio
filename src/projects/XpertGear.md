@@ -1,7 +1,7 @@
 ---
 title: "XpertGear Store"
 tags: "featured"
-summary: This is an online store built on Shopify with the sleek Ride theme, this store seamlessly combines style and function. It was a personal project I started for passion and practice, to experience the simplicity of Shopify - an online store builder.
+summary: "This is an online store built on Shopify with the sleek Ride theme, this store seamlessly combines style and function. It was a personal project I started for passion and practice, to experience the simplicity of Shopify - an online store builder."
 images: 
     - /images/XpertGear Desktop-min.png
     - /images/XpertGear Mobile 1.png
