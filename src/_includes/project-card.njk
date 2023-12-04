@@ -3,11 +3,11 @@
         <h1>{{ project.data.title }}</h1>
     </div>
     
-        {% for image in project.data.images%}
-            <div id="project-grid-{{ loop.index }}">
-                <img src="{{ image }}" alt=" " >
+        
+            <div id="project-grid-1">
+                <img src="{{ project.data.images[0] }}" alt=" " >
             </div>
-        {% endfor %}
+       
 
         <div id="project-description" style="backdrop-filter: blur(2rem); border-radius: 20px;padding: 20px;">
             <p>{{ project.data.summary }}</p>

@@ -335,6 +335,9 @@ header{
 }
 
 #project-description{
+    margin-inline: auto;
+    margin-top: 4vh;
+    width: 70%;
     padding-inline: 100px;
     text-align: center;
 }
@@ -404,6 +407,10 @@ p{
 h1{
     color: var(--primary-color);
     font-size: 30px;
+}
+
+#project-description{
+    width: 100%;
 }
 
 article{
