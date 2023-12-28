@@ -254,6 +254,7 @@ header{
 #fwd--article .display{
     backdrop-filter: blur(1rem);
     border-radius: 20px;
+    align-content: center;
     
    }
 
