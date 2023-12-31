@@ -32,7 +32,7 @@ repoUrl: "#"
 I employed semantic HTML5, implemented responsive images and elements for a well-structured and accessible document outline.For the layout I combined grid and flexbox designs, optimizing for both mobile and desktop views.This was accomplished with the aid of media queries.</p>
 <br>
 <h1>Key <span>Features</span></h1>
-<p>This page features a display of Lucky Shrub's promotion banner.Including also a responsive navigation menu that adapts to different screen sizes for easy access and visual aesthetic.It also features a product section that incorporates strategically placed call-to-action buttons to encourage user engagement.</p>
+<p>This page features a display of Lucky Shrub's promotion banner, a responsive navigation menu that adapts to different screen sizes for easy access and visual aesthetic.It also features a product section that incorporates strategically placed call-to-action buttons to encourage user engagement.</p>
 <br>
 <h1>Conclusion</h1>
 <p>The Lucky Shrub project served as a valuable opportunity to apply responsive design principles in a real-world scenario. By successfully gaining hands-on experience and enhanced my skills in web development, setting the foundation for future projects and challenges.</p>
