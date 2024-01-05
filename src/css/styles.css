@@ -339,8 +339,13 @@ header{
     margin-inline: auto;
     margin-top: 4vh;
     width: 70%;
-    padding-inline: 100px;
+    /* padding-inline: 100px; */
     text-align: center;
+
+    backdrop-filter: blur(2rem); 
+    border-radius: 20px;
+    padding: 20px 100px 20px 100px; 
+
 }
 
 
@@ -491,7 +496,7 @@ h3{
 
 /*scrollbar styles*/
 ::-webkit-scrollbar{
-    width: 0.5%;
+    /* width: 0.5%; */
     border-radius: 10px;
     margin-inline: 0.2px;
 }
@@ -732,7 +737,7 @@ h3{
    #project-description{
        padding-inline: 20px;
        width: 100%;
-       
+       background-size: 100% 0;
    }
 
    .contact-cols{
