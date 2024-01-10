@@ -488,6 +488,10 @@ h3{
     text-align: center;
 }
 
+#footer-details>h3{
+    line-height: 0;
+}
+
 #footer-link{
     margin: auto;
     align-items: center;
