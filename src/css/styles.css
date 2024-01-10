@@ -66,6 +66,11 @@ header{
     align-items: center;
     margin-left: 30px;
     color: var(--primary-color);
+    
+}
+
+.logo a{
+    text-decoration: none;
 }
 
 #icon{
@@ -616,6 +621,9 @@ h3{
     
 }
 
+#form-input input, textarea{
+    background-color: transparent;
+}
 
 #form-input>label{
     display: block;
