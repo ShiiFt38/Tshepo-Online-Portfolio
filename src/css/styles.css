@@ -397,7 +397,7 @@ header{
 }
 
 #project-grid-1:hover .project-meta{
-    transform: translateY(50%);
+    transform: translateY(30%);
 }
 
 #project-grid-1>img{

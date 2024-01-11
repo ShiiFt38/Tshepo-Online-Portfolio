@@ -17,6 +17,7 @@ tech:
     - "JavaScript"
     - "Eleventy.js"
     - "CSS"
+    - "Nunjucks"
 siteUrl: "https://xlounge-blog.netlify.app/"
 repoUrl: "#"
 date: 2023-12-23
