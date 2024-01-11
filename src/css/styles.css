@@ -208,13 +208,16 @@ header{
     
 }
 
+/* #section--heading{
+    grid-column: 1/ span 2;
+} */
+
 /*section headings*/
 #section--heading>h1{
     font-size: 70px;
     color: var(--secondary-color);
-    left: 0;
     writing-mode: vertical-lr; 
-    grid-column: 1/ span 2;
+    /* grid-column: 1/ span 2; */
     position: sticky;
     top: 50px;
     transition: all 0.8s;
@@ -725,8 +728,9 @@ h3{
 
    #about--article, #fwd--article, #projects--article{
        font-size: 15px;
-       
+       grid-column: 1/ span 12;
    }
+
    .hero--intro h1{
        font-size: 60px;
        word-spacing: 100px;
@@ -734,11 +738,14 @@ h3{
 
    #section--heading{
     padding: 10px;
+    grid-column: 1/ span 12;
+    text-align: center;
    }
 
    #section--heading>h1{
     font-size: 40px;
-    grid-column: 1/ span 1;
+    margin: auto;
+    writing-mode: horizontal-tb;
 }
 
    #slideshow h1{
@@ -751,12 +758,17 @@ h3{
 
    #slideshow{
        height: 380px;
-       width: 65vw;
+       max-width: 65vw;
+       margin: auto;
    }
 
    #about--article, #fwd--article, #projects--article{
        padding: 0;
        margin: 0;
+   }
+
+   .project-meta p, .project-meta h1{
+    font-size: 5px;
    }
 
    #project-description{
