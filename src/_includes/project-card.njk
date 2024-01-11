@@ -5,7 +5,18 @@
     
         
             <div id="project-grid-1">
-                <img src="{{ project.data.images[0] }}" alt=" " >
+                <img src="{{ project.data.images[0] }}" class="project-grid-image" alt=" " >
+                <div class="project-meta">
+                    <h1><span>Category: </span></h1>
+                    <p>{{ project.data.category }}</p>
+                    <h1><span>Completed: </span></h1>
+                    <p>{{ project.data.date | postDate }}</p>
+                    <h1><span>Technologies:<span></h1>
+                    {% for tech in project.data.tech %}
+                        <p>{{ tech }}</p>
+                    {%endfor%}
+                    <h1><span></span></h1>
+                </div>
             </div>
        
 

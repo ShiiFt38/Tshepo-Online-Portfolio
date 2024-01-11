@@ -45,8 +45,15 @@ main{
 }
 
 p{
-    font-size: 15px;
+    color: var(--primary-color);
+    font-size:15px;
 }
+
+h1{
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
 
 header{
     max-width: 100vw;
@@ -111,7 +118,7 @@ header{
     color: var(--primary-color);
     position: relative;
     letter-spacing: 1px;
-    transition: 0.5s
+    transition: all 0.3s ease-in-out;
 }
 
 .nav--link:after{
@@ -121,7 +128,6 @@ header{
     height: 2px;
     left: 0;
     bottom: -8px;
-    transition: all 1.5s;
 }
 
 .nav--link:hover:after{
@@ -344,7 +350,6 @@ header{
     margin-inline: auto;
     margin-top: 4vh;
     width: 70%;
-    /* padding-inline: 100px; */
     text-align: center;
 
     backdrop-filter: blur(2rem); 
@@ -353,7 +358,17 @@ header{
 
 }
 
-
+.project-meta{
+    width: 80%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(100%);
+    background-color: var(--menu-color);
+    backdrop-filter: blur(1rem);
+    
+}
 
 #project-heading>h1{
     margin: auto;
@@ -374,7 +389,15 @@ header{
 }
 
 #project-grid-1{
+    display: flex;
     grid-column: 1/ span 12;
+    position: relative;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+#project-grid-1:hover .project-meta{
+    transform: translateY(50%);
 }
 
 #project-grid-1>img{
@@ -408,16 +431,6 @@ header{
 article a{
     text-decoration: none;
     color: var(--primary-color);
-}
-
-p{
-    color: var(--primary-color);
-    font-size:15px;
-}
-
-h1{
-    color: var(--primary-color);
-    font-size: 30px;
 }
 
 article{

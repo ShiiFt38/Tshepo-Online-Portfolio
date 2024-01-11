@@ -16,7 +16,8 @@ tech:
     - "Shopify"
 siteUrl: "https://xpertgear.xlounge.co.za/"
 repoUrl: "#"
-
+date: 2023-11-16
+category: "Web Development"
 ---
 
 <br>

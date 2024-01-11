@@ -19,6 +19,8 @@ tech:
     - "CSS"
 siteUrl: "https://xlounge-blog.netlify.app/"
 repoUrl: "#"
+date: 2023-12-23
+category: "Web Development"
 
 --- 
 

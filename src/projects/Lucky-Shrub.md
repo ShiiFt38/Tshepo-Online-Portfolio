@@ -17,6 +17,8 @@ tech:
     - "CSS"
 siteUrl: "https://shiift38.github.io/Lucky-Shrub-Site/"
 repoUrl: "#"
+date: 2023-07-12
+category: "Web Development"
 
 ---
 <br>

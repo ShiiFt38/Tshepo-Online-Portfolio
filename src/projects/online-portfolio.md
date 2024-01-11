@@ -19,6 +19,8 @@ tech:
     - "Nunjucks"
 siteUrl: "https://tshepo-online-portfolio.netlify.app/"
 repoUrl: "#"
+date: 2024-01-11
+category: "Web Development"
 
 ---
 <br>
