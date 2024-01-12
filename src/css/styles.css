@@ -309,7 +309,7 @@ header{
 /*div element containing each instance of certificate displays*/
 .display{
     width: 200px;
-    transition: all 2s;
+    transition: all 2s ease-in-out;
     font-size: 15px;
     display: grid;
     justify-content: space-around;
@@ -659,6 +659,14 @@ h3{
     color: var(--primary-color);
 
 }
+
+#certificate-slideshow{
+    scroll-snap-type: x mandatory;
+   }
+
+   .display{
+    scroll-snap-align: start;
+   }
 
 .submit-btn:hover{
     background-color: black;
