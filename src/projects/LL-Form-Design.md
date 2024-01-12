@@ -3,12 +3,16 @@ title: "Little Lemon Form"
 summary: "I was tasked with designing an online reservation feature and form for Little Lemon, a restaurant lacking such functionality. The challenge included addressing customer reluctance toward third-party apps and reducing wait times. Through user persona development, journey mapping, and Figma prototyping, the goal was to create a user-friendly solution that simplifies reservations, saving both time and resources for patrons."
 images: 
     - /images/Little Lemon Hi-Fi WireFrame-min.png
-imageAlt: Wireframe Picture
+    - /images/Little Lemon Reservation 1.png
+    - /images/Little Lemon Home Screen.png
+    - /images/Little Lemon Reservation 2.png
+imageAlt: 
+    - Wireframe Picture
 tech: 
     - "Figma"
 siteUrl: "https://docs.google.com/document/d/e/2PACX-1vSbJtfiBzyx5IKTv9MLM35-KtQ8_ydD8meCGzazmXietQxRO85xl6WGPV28uEC03qNv2EdkGkHjLjJc/pub"
 repoUrl: "#"
-date: 2023-12-28
+date: 2024-01-07
 category: "Web Design"
 
 ---
