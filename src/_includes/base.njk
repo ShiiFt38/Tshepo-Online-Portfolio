@@ -44,6 +44,7 @@ icon.addEventListener('click', function(){
 const primaryNav = document.querySelector('.nav--list');
 const navToggle = document.querySelector('.mobile-nav-toggle');
 const navBar = document.querySelector('.navbar');
+const menuIcon = document.querySelector('#menu-icon');
 
 navToggle.addEventListener('click', () => {
     const visibility = primaryNav.getAttribute('data-visible');
@@ -51,9 +52,11 @@ navToggle.addEventListener('click', () => {
     if(visibility === 'false'){
         navBar.id = "visible";
         primaryNav.setAttribute('data-visible', true);
+        menuIcon.setAttribute('class', "fa fa-times")
     }else{
         navBar.id = "invisible";
         primaryNav.setAttribute('data-visible', false);
+        menuIcon.setAttribute('class', "fa-solid fa-bars");
     }
 
 });
