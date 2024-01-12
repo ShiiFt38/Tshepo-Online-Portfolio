@@ -14,7 +14,6 @@ imageAlt:
     - "Screenshot of site on mobile version 3"
 tech: 
     - "HTML"
-    - "JavaScript"
     - "Eleventy.js"
     - "CSS"
     - "Nunjucks"

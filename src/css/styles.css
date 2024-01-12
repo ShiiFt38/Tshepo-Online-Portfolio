@@ -211,10 +211,6 @@ header{
     
 }
 
-/* #section--heading{
-    grid-column: 1/ span 2;
-} */
-
 /*section headings*/
 #section--heading>h1{
     font-size: 70px;
@@ -227,6 +223,12 @@ header{
 }
 
 /*buttons for links*/
+.link-container{
+    text-align: center;
+    display: flex;
+    grid-column: 2/ span 12;
+}
+
 .web-link-btn, .page-link-btn{
     font-size: 15px;
     text-decoration: none;
