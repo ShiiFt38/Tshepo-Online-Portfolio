@@ -29,6 +29,7 @@ html, body{
 
 #menu-icon{
     color: #fcfcfd;
+    transition: all 0.3s ease-in-out;
     
 }
 
@@ -117,6 +118,7 @@ header{
 
 /*each anchor element in the navbar*/
 .nav--link{
+    text-transform: uppercase;
     text-decoration: none;
     color: var(--primary-color);
     position: relative;
@@ -251,6 +253,11 @@ header{
     height: fit-content;
     backdrop-filter: blur(1rem);
     border-radius: 20px;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-timeline: view();
+    animation-range: entry;
 }
 
 /*div element containing 'about' paragraph snippet*/
@@ -312,8 +319,7 @@ header{
     transition: all 2s ease-in-out;
     font-size: 15px;
     display: grid;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
 }
 
 /*certificate title underneath display pictures*/
@@ -339,6 +345,11 @@ header{
     height: fit-content;
     align-items: center;
     display: grid;
+    animation-name: bigToSmall;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-timeline: view();
+    animation-range-end: contain; 
 }
 
 #project-heading, #project-description{
@@ -353,7 +364,6 @@ header{
     margin-top: 4vh;
     width: 70%;
     text-align: center;
-
     backdrop-filter: blur(2rem); 
     border-radius: 20px;
     padding: 20px 100px 20px 100px; 
@@ -444,6 +454,12 @@ article{
     font-size: 20px;
     width: 90%;
     margin-inline: auto;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-timeline: view();
+    animation-range-end: calc(50%);
+
 }
 
 article>h1{
@@ -466,6 +482,26 @@ span{
 #icon{
     color: var(--primary-color);
 }
+
+.logo{
+    border-radius: 50%;
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: black;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden;
+    background-image: url("/images/TMS Logo.png" );
+    background-repeat:no-repeat;
+    background-size:cover
+
+}
+
+#iconImg{
+    margin: auto;
+    height: 10px; 
+
+} 
 
 /*footer section*/
 footer{
@@ -565,6 +601,25 @@ h3{
     }
 }
 
+@keyframes scrolling {
+    0% {
+        right: 0;
+    }
+    100%{
+         right: -100%;
+    }
+}
+
+/* animation that increases visibility as an item appears */
+@keyframes fadeIn{
+    from{
+        opacity: 0.2;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 
 
 /*section with contact information*/
@@ -660,6 +715,7 @@ h3{
 
    .display{
     scroll-snap-align: center;
+    
    }
 
 .submit-btn:hover{
@@ -725,7 +781,7 @@ h3{
        width: 45vw;
        position: sticky;
        gap: 40px;
-       transform: translateX(20%);
+       transform: translateX(20%);       
    }
 
 
