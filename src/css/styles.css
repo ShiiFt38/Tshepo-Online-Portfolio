@@ -331,12 +331,6 @@ header{
     
 }
 
-/* #huge-display img:hover, .display img:hover{
-    transform: scale(1.2) ;
-    transition: all 0.8s;
-} */
-
-
 /*projects section*/
 #huge-display{
     padding-block: 30px;
@@ -665,7 +659,7 @@ h3{
    }
 
    .display{
-    scroll-snap-align: start;
+    scroll-snap-align: center;
    }
 
 .submit-btn:hover{
