@@ -46,8 +46,8 @@ html, body{
 body{
     font-family:'Poppins', sans-serif;
     max-width: 100vw;
-    height: 100vh;
-    height: 100svh;
+    /* height: 100vh; */
+    min-height: 100svh;
     background: var(--tertiary-color);
     background-image: Url('/images/dark-textured-wall-min.jpg');
     background-attachment: fixed;
