@@ -3,7 +3,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    vertical-align: baseline;
 }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* html{
+    background-color: black;
+} */
 
 html, body{
     width: 100%;
@@ -36,6 +46,8 @@ html, body{
 body{
     font-family:'Poppins', sans-serif;
     max-width: 100vw;
+    height: 100vh;
+    height: 100svh;
     background: var(--tertiary-color);
     background-image: Url('/images/dark-textured-wall-min.jpg');
     background-attachment: fixed;
@@ -145,7 +157,7 @@ header{
     background-size: cover;
     background-repeat: none;
     max-width: 100vw;
-    height: 96vh;
+    min-height: 100vh;
     color: var(--primary-color);
     display: grid;
     align-items: center;
@@ -491,9 +503,9 @@ span{
     align-items: center;
     justify-content:center;
     overflow: hidden;
-    background-image: url("/images/TMS Logo.png" );
+    background-image: url("/images/TMS logo-modified.png" );
     background-repeat:no-repeat;
-    background-size:cover
+    background-size:cover;
 
 }
 
@@ -613,7 +625,7 @@ h3{
 /* animation that increases visibility as an item appears */
 @keyframes fadeIn{
     from{
-        opacity: 0.2;
+        opacity: 0;
     }
     to{
         opacity: 1;
@@ -735,7 +747,7 @@ h3{
 }
 
 /*responsive design*/
-@media (width <= 700px){
+@media (width <= 768px){
     /*menu button*/
     .mobile-nav-toggle{
        display: block;
@@ -744,6 +756,10 @@ h3{
        right: 30px;
        float: right;
        
+   }
+
+   .hero{
+    height: auto;
    }
 
    #hero-list-item{
