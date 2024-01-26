@@ -24,7 +24,7 @@ html, body{
 :root{
     --primary-color: white;
     --secondary-color: lightblue;
-    --tertiary-color: linear-gradient(to right, 
+    --tertiary-color: linear-gradient(to right,
     rgb(47, 47, 47),black);
     --menu-color: hsla(0, 0%, 1%, 0.6);
 }
