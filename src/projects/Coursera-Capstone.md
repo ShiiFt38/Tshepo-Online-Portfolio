@@ -2,7 +2,7 @@
 title: "Restaurant Website"
 tags: "featured"
 summary: "Showcasing my expertise in front end development, this project serves as the capstone of my Coursera Front End Developer course by Meta.
-Developed with advanced React.js components and a controlled form, this restaurant website bpasts a custom design created in Figma. Explore how I tackled 
+Developed with advanced React.js components and a controlled form, this restaurant website boasts a custom design created in Figma. Explore how I tackled 
 real-world challenges and honed my skills in web development through this immersive project"
 images: 
     - /images/Coursera Capstone Desktop.png
