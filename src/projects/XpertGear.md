@@ -1,6 +1,5 @@
 ---
 title: "XpertGear Store"
-tags: "featured"
 summary: "This is an online store built on Shopify with the sleek Ride theme, this store seamlessly combines style and function. It was a personal project I started for passion and practice, to experience the simplicity of Shopify - an online store builder."
 images: 
     - /images/XpertGear Desktop-min.png
@@ -24,7 +23,7 @@ category: "Web Development"
 <h1>Overview</h1>
 <p> Embarking on the XpertGear project was my journey into the world of online retail. Fueled by a passion for gaming, this Shopify store is my personal endeavor to create a space where enthusiasts can find top-notch mobile gaming accessories. Choosing the Ride theme was intentional—it not only adds a sleek aesthetic to the store but also ensures a user-friendly experience for visitors. The selection process for products was meticulous, focusing on quality and functionality to enhance the gaming experience. What makes XpertGear special is not just the products but the hands-on experience of building it. Shopify's simplicity turned what seemed like a daunting project into an enjoyable venture. It's a testimony to the accessibility and power of Shopify as an online store builder.</p>
 <br>
-<h1> Learning <span>objectives</span></h1>
+<h1> Learning <span>Objectives</span></h1>
 <p>Throughout the journey of creating XpertGear, the primary learning objectives were multi-faceted. Firstly, the project aimed at fostering proficiency in utilizing the Shopify platform, delving into the intricacies of store creation and effective management. Curation skills took center stage, with a focus on selecting and presenting a thoughtfully curated collection of mobile gaming accessories, where considerations of both functionality and style played pivotal roles.
 
 The choice of the Ride theme underscored the objective of mastering theme customization within Shopify, adding a layer of personalization to the store's appearance and ensuring a visually appealing user interface. The overarching goal, however, extended beyond technical skills—it encompassed the optimization of user experience, aiming to create a seamless and enjoyable journey for visitors exploring the array of gaming accessories. Ultimately, the project transitioned from a hands-on endeavor to a portfolio-worthy showcase, highlighting skills, achievements, and the fusion of passion with entrepreneurial spirit.

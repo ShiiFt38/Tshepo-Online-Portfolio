@@ -25,7 +25,7 @@ category: "Web Development"
 <h1>Overview</h1>
 <p> This course for this project was provided by Meta through Coursera. The task was to design and code a responsive home page for Lucky Shrub , a fictional company specialising in gardening products</p>
 <br>
-<h1> Learning <span>objectives</span></h1>
+<h1> Learning <span>Objectives</span></h1>
 <p>The learning objectives I completed and benefitted from in this project include, responsive design principles, HTML/CSS proficiency and mobile-first approach.I know how to apply responsive design techniques to ensure optimal user experience across various devices with different screen sizes. With this project I demonstrate my proficiency in HTML and CSS for structuring and styling web pages.</p>
 <br>
 <h1> Design and <span>Development</span></h1>

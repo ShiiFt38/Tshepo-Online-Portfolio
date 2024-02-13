@@ -27,7 +27,7 @@ category: "Web Development"
 <h1>Overview</h1>
 <p> The creation of my online portfolio was a journey of self-expression and skill refinement. As a representation of my achievements over the past year, the project aimed to showcase not only the end results but also the evolution of my skills and the process behind each endeavor.</p>
 <br>
-<h1> Learning <span>objectives</span></h1>
+<h1> Learning <span>Objectives</span></h1>
 <p>The primary goal was to construct a visually appealing and informative platform that effectively highlighted my accomplishments and capabilities. This project also served as a learning opportunity to delve into static site generation using Eleventy.js, enhancing the overall performance and maintainability of the portfolio.
 </p>
 <br>

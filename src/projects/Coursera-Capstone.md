@@ -1,5 +1,6 @@
 ---
 title: "Restaurant Website"
+tags: "featured"
 summary: "Showcasing my expertise in front end development, this project serves as the capstone of my Coursera Front End Developer course by Meta.
 Developed with advanced React.js components and a controlled form, this restaurant website bpasts a custom design created in Figma. Explore how I tackled 
 real-world challenges and honed my skills in web development through this immersive project"
@@ -30,7 +31,7 @@ category: "Web Development"
 <p>As part of the final project for the Front End Developer course offered by Meta on Coursera, I undertook the development of a restaurant website. This project served as a culmination of the skills
 and knowledge acquired throughout the course, providing a platform to showcase my proficiency in web development and design.</p>
 <br>
-<h1> Learning <span>objectives</span></h1>
+<h1> Learning <span>Objectives</span></h1>
 <p>The primary objective of this capstone project was to demonstrate a comprehensive understanding of front end development concepts and techniques. Specifically, I aimed to achieve the following learning objectives: <br><br> Implement a controlled form to capture user input. <br>Design a webpage using Figma, a popular design tool. <br>Utilize advanced React.js components such as state management and useRef hook. <br>Solve authentic real-world problems through effective web development solutions.</p>
 
 <br>

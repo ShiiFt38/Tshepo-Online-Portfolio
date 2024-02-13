@@ -28,7 +28,7 @@ category: "Web Development"
 <h1>Overview</h1>
 <p> XLounge blog started as a passion project with the aim of providing a valuable resource for individuals eager to learn web development. Leveraging the power of static site generation with Eleventy.js, the blog not only delivers content but also ensures a seamless and enjoyable browsing experience.</p>
 <br>
-<h1> Learning <span>objectives</span></h1>
+<h1> Learning <span>Objectives</span></h1>
 <p>The learning objectives that were the focus with this project included static site generation mastery and content delivery optimization. I knew nothing about static site generators when I stumbled upon this project but sources I learnt from, were clear and concise in their teaching. I gained proficiency in utilizing Eleventy.js for efficient static site generation. I understand the benefits of static sites which include better performance, security, and simplicity that consists in modular code. This project allowed me to explore techniques to optimize content delivery through static files for faster page loads.
 </p>
 <br>
